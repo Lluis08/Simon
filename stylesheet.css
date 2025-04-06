@@ -1,0 +1,102 @@
+/* Estils per al títol */
+h1 {
+    font-family: "Times New Roman"; /* Defineix la font del títol com "Times New Roman" */
+    text-align: center; /* Centra el títol en horitzontal */
+    margin-top: 30px; /* Afegeix un marge superior de 30 píxels per separar el títol de la part superior */
+}
+
+/* Estils per al cos de la pàgina */
+body {
+    background-color: #3a4b3f; /* Defineix un fons verd fosc per tot el cos de la pàgina */
+    font-family: 'Arial', sans-serif; /* Utilitza la font Arial (sans-serif) per al text */
+    color: white; /* El text serà de color blanc */
+    margin: 0; /* Elimina el marge per defecte al voltant del cos */
+    padding: 0; /* Elimina el padding per defecte */
+    text-align: center; /* Centra el text en la pàgina */
+}
+
+/* Estils per al contenidor de botons */
+.container {
+    display: grid; /* Utilitza el sistema de quadrícula CSS per organitzar els elements */
+    grid-template-columns: repeat(2, 120px); /* Defineix dues columnes de 120px de amplada */
+    grid-template-rows: 120px; /* Defineix una fila de 120px d'alçada */
+    gap: 15px; /* Afegeix un espai de 15 píxels entre els elements */
+    justify-content: center; /* Centra els elements de la graella horitzontalment */
+    margin-top: 50px; /* Afegeix un marge superior de 50 píxels per separar la graella de la part superior de la pàgina */
+}
+
+/* Estils per als botons de color */
+.color-button {
+    width: 120px; /* Amplada dels botons de 120 píxels */
+    height: 120px; /* Alçada dels botons de 120 píxels */
+    border: none; /* Elimina qualsevol bord de l'element */
+    border-radius: 15px; /* Bordes arrodonits amb un radi de 15 píxels */
+    cursor: pointer; /* Canvia el cursor per un de mà quan es passa per sobre */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Afegim transició suau per l'efecte de transformació i ombra */
+}
+
+/* Efecte quan es fa clic en un botó */
+.color-button:active {
+    transform: scale(0.9); /* Quan es fa clic, el botó es redueix al 90% de la seva mida */
+}
+
+/* Estils per al quadrat que mostra la seqüència */
+.cuadrado {
+    width: 150px; /* Amplada del quadrat de 150 píxels */
+    height: 150px; /* Alçada del quadrat de 150 píxels */
+    background-color: white; /* Color de fons blanc */
+    border: none; /* Elimina qualsevol bord de l'element */
+    border-radius: 15px; /* Bordes arrodonits amb un radi de 15 píxels */
+    margin: 20px; /* Afegeix un marge de 20 píxels al voltant del quadrat */
+    position: absolute; /* Posiciona el quadrat absolutament dins de la pàgina */
+    left: 45%; /* Centra el quadrat horitzontalment */
+    transition: background-color 0.5s ease; /* Efecte suau per al canvi de color de fons */
+}
+
+/* Animació de color per al quadrat que mostra la seqüència */
+.cuadrado.flashing {
+    animation: flashColor 1s ease-out; /* Aplica l'animació "flashColor" quan es fa servir la classe "flashing" */
+}
+
+/* Definició dels colors per als botons */
+#red {
+    background: red; /* Fons vermell per al botó */
+}
+#green {
+    background: green; /* Fons verd per al botó */
+}
+#yellow {
+    background: yellow; /* Fons groc per al botó */
+}
+#blue {
+    background: blue; /* Fons blau per al botó */
+}
+#pink {
+    background: pink; /* Fons rosa per al botó */
+}
+#black {
+    background: black; /* Fons negre per al botó */
+}
+#orange {
+    background: orange; /* Fons taronja per al botó */
+}
+#purple {
+    background: purple; /* Fons morat per al botó */
+}
+
+/* Estils per al botó "Iniciar Joc" */
+button {
+    font-size: 15px; /* Mida de la font del botó */
+    padding: 10px 30px; /* Afegim 10 píxels a dalt i a baix, 30 píxels als costats */
+    border-radius: 25px; /* Arrodoneix els costats del botó amb un radi de 25 píxels */
+    border: none; /* Elimina el bord per defecte */
+    background-color: #ff9900; /* Fons taronja pel botó */
+    color: white; /* El text serà de color blanc */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Afegim transició suau per als canvis de color i transformació */
+}
+
+/* Efecte quan es passa el ratolí sobre el botó "Iniciar Joc" */
+button:hover {
+    background-color: #ff6600; /* Canvia el color de fons a un taronja més fosc quan es passa el ratolí */
+    transform: scale(1.1); /* Amplia el botó quan el ratolí està sobre ell */
+}
