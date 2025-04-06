@@ -26,10 +26,10 @@ function traduirColor(nomColor) {
         "verd": "green",
         "groc": "yellow",
         "blau": "blue",
-        "rosa": "pink",
+        "rosa": "deeppink",
         "negre": "black",
         "taronja": "orange",
-        "lila": "purple"
+        "lila": "rebeccapurple"
     };
     return traduccio[nomColor] || "white";
 }
