@@ -72,7 +72,7 @@ body {
     background: blue; /* Fons blau per al botó */
 }
 #pink {
-    background: pink; /* Fons rosa per al botó */
+    background: deeppink; /* Fons rosa per al botó */
 }
 #black {
     background: black; /* Fons negre per al botó */
@@ -81,7 +81,7 @@ body {
     background: orange; /* Fons taronja per al botó */
 }
 #purple {
-    background: purple; /* Fons morat per al botó */
+    background: rebeccapurple; /* Fons morat per al botó */
 }
 
 /* Estils per al botó "Iniciar Joc" */
